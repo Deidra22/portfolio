@@ -8,15 +8,29 @@ body{
     background-repeat: none;
 }
 
-.navbar{
-    background-color:#000;
-}
 
 .navi{
+    border-color:#000;
+    background-color:#000;
     font-size: 35px;
-    /* word-spacing: 100px; */
-    /* margin-left: 45px; */
+
 }
+
+.navbar-default .navbar-nav > .active > a{
+    background-color:#a4189a;
+    color:#000;
+}
+
+.navbar-default .navbar-nav > .active > a:hover{
+    background-color:#99e6ff;
+}
+
+.navbar-default .navbar-toggle{
+    border-color:#a4189a;
+    
+}
+
+
 
 .box{
     margin-top:50px;
@@ -26,5 +40,5 @@ body{
     margin-top:50px;
     background-color:#000;
     opacity: 0.9;
-    color: purple;
+    color: #a4189a;
 }
