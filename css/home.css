@@ -6,10 +6,10 @@ body{
     width:100%;
     background-image: url("../img/pattern.png");
     background-repeat: none;
+    background-size: cover;
 }
 
-
-
+/* START OF NABBAR */
 .navi, span{
     color:#000;
     border-color:#a4189a;
@@ -54,7 +54,7 @@ body{
     font-size: 22px;
     text-indent: 30px;
     text-align: justify;
-    line-height: 30px;
+    line-height: 34px;
 }
 
 .column{
@@ -107,23 +107,40 @@ body{
     transform: rotateX(180deg);
     border-radius: 6px;
   }
-  /****FLIP CONTAINER END****/
 
-
-  @media only screen and (max-width: 650px) {
-    .meme {height:160px;
-    margin-top: -30px;}
-    .bio {font-size:18px;}
-    
-  }
-
-  /* @media only screen and (min-width: 728px) {
-    .meme {height:200px;}
-  } */
-  
   .meme{
     height: 400px;
-}
+    }
+
+  /****FLIP CONTAINER END****/
+
+  @media only screen and (min-width: 0px) and (max-width: 434px) {
+    .meme {
+        height:160px;
+    }
+    .bio {
+        font-size:15px;
+        line-height: 22px;
+    }
+  }
+
+  @media only screen and (min-width: 435px) and (max-width: 650px) {
+    .meme {
+        height:160px;
+    }
+    .bio {
+        font-size:15px;
+    }
+  }
+
+  @media only screen and (min-width: 651px) and (max-width: 767px) {
+    .meme {
+        height:200px;
+    }
+    .bio{
+        font-size: 18px;
+    }
+  }
 
 .thumbnail{
     background: rgba(164, 24, 154, 0.8);
@@ -137,8 +154,12 @@ body{
     width: 200px;
 }
 
-.contact_info{
+.contact{
+    text-align: center;
     background: rgba(164, 24, 154, 0.8);
+}
+
+.contact_info{
     font-size:25px;   
 }
 
@@ -151,4 +172,8 @@ body{
 }
 .fa-linkedin{
     color: #0077B5;
+}
+
+.fa-github{
+  
 }
