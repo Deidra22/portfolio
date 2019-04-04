@@ -149,8 +149,8 @@ body{
     margin-bottom: 200px; 
 }
 
-.thumb{
-    height: 100%;
+#thumb{
+    height: 250px;
     width: 100%;
 }
 
